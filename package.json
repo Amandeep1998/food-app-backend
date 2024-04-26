@@ -4,8 +4,12 @@
   "description": "",
   "type": "module",
   "main": "server.js",
+  "engines": {
+    "node": "20.11.1"
+  },
   "scripts": {
-    "server": "nodemon ./api/index.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
