@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
-    "server": "nodemon server.js",
-    "start": "node server.js"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
